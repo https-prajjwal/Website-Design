@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root{
+  --red: #DD0C39;
+  --blue: #003594;
+}
+
+.navbar{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.navbar .container-fluid{
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+
+.navbar-brand{
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar-brand > span {
+  color: #DD0C39;
+}
+.navbar-brand > img {
+  height: 32px;
+  width: 32px;
+  margin-bottom: 6px;
+}
+
+.navbar-nav > li {
+  padding-left: 24px;
+  padding-right: 24px;
+  font-family: "Playfair+Display";
+  font-weight: 500;
+}
+
+.navbar-nav > li > a:hover{
+  color: var(--blue);
+  transition: 0.3s ease-in;
+}
+
+.navbar-nav > li > a{
+  color: var(--red);
+}
+
+.navbar-nav > li > a > button {
+  border: 2px solid var(--blue);
+  background-color: transparent;
+  padding: 4px 16px 4px 16px;
+  color: var(--blue);
+}
+.navbar-nav > li > a > button:hover {
+  background-color: var(--blue);
+  padding: 4px 16px 4px 16px;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item {
+  color: var(--blue);
+}
+
+.nepal {
+  position: absolute;
+  width: 210px;
+  height: 85px;
+  left: 256px;
+  top: 232px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hover-text {
+  position: absolute;
+  width: 380px;
+  height: 99px;
+  left: 1056px;
+  top: 200px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#Home > a > button {
+  padding: 8px 20px 8px 20px;
+  left: 1285px;
+  top: 316px;
+  width: 150px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid ;
+  border-image: linear-gradient(270deg, #003594 0%, #cf1940 100%) 2;
+  position: absolute;
+  background-clip: text;
+}
+
+.about-us {
+  position: absolute;
+  margin: 48px;
+  left: 41%;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 85px;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.image-body{  
+  position: absolute;
+  margin-top: 11%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  left: 27%;
+}
+
+.description{
+  position: absolute;
+  width: 1184px;
+  height: 256px;
+  left: 200px;
+  top: 1460px;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+
