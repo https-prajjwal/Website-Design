@@ -131,7 +131,7 @@
 .about-us {
   position: absolute;
   margin: 48px;
-  left: 41%;
+  left: 39%;
   text-align: center;
   font-family: "Playfair Display";
   font-style: normal;
@@ -153,16 +153,15 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%; 
-  left: 27%;
+  left: 26%;
 }
 
 .description{
   position: absolute;
   width: 1184px;
   height: 256px;
-  left: 200px;
+  left: 180px;
   top: 1460px;
-
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
@@ -174,7 +173,46 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-
+  margin-bottom: 0px;
 }
 
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+#services{
+  position:absolute;
+  top:1664px;
+  margin-top: 80px;
+}
+
+#services > div > div > h1 {
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0.02em;
+  position: absolute;
+  left: 37.5%;
+}
+
+#chips{
+  padding-top: 112px;
+}
+
+.card-header{
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
