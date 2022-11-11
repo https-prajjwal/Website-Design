@@ -182,11 +182,21 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
-  padding-top: 8px;
+  margin-bottom: 4px;
+  padding-top: 10px;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: 2px solid ;
+  border-image: linear-gradient(270deg, #003594 0%, #cf1940 100%) 2;
 }
 
+.footer > p{
+  margin-bottom: 12px;
+}
 
 #services{
   position:absolute;
@@ -215,4 +225,15 @@
 .card-header{
   font-family: "Playfair Display";
   font-weight: 600;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#border{
+  border: 2px solid transparent;
+  border-image: linear-gradient(270deg, #003594 0%, #CF1940 100%) 1;
+  font-family: 'Playfair Display';
+  font-style: normal;
 }
