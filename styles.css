@@ -6,6 +6,7 @@
   --blue: #003594;
 }
 
+
 .navbar{
   background-color: rgba(255,255,255,0.5);
 }
@@ -128,6 +129,14 @@
   background-clip: text;
 }
 
+#Home > a > button:hover {
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: white;
+  -webkit-text-fill-color: white;
+  background-clip: text;
+  transition: 0.5s ease-in;
+}
+
 .about-us {
   position: absolute;
   margin: 48px;
@@ -184,24 +193,31 @@
   width: 100%;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 4px;
   padding-top: 10px;
   background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border: 2px solid ;
+  border-top: 2px solid ;
   border-image: linear-gradient(270deg, #003594 0%, #cf1940 100%) 2;
-}
+  background:linear-gradient(#ffffff,#F3F8FF) ;
+} 
+
 
 .footer > p{
   margin-bottom: 12px;
+  overflow: hidden;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 #services{
   position:absolute;
   top:1664px;
   margin-top: 80px;
+  background: linear-gradient(#ffffff,#F3F8FF);
 }
 
 #services > div > div > h1 {
@@ -237,3 +253,75 @@
   font-family: 'Playfair Display';
   font-style: normal;
 }
+
+#btn1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 13px;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: 2px solid ;
+  border-image: linear-gradient(270deg, #003594 0%, #cf1940 100%) 2;
+}
+
+#btn1:hover{
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: white;
+  -webkit-text-fill-color: white;
+  background-clip: text;
+  transition: 0.5s ease-in;
+}
+
+#btn2{
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 13px;
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 8px 20px 8px 20px;
+  border: 2px solid ;
+  border-image: linear-gradient(270deg, #003594 0%, #cf1940 100%) 2;
+}
+
+#btn2:hover{
+  background: linear-gradient(270deg, #003594 0%, #cf1940 100%);
+  -webkit-background-clip: white;
+  -webkit-text-fill-color: white;
+  background-clip: text;
+  transition: 0.5s ease-in;
+}
+
+#contact{
+  position:absolute;
+  top:2400px;
+  width: 100%;
+}
+
+#topic{
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+.form-label{
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Playfair Display";
+}
+
+i{
+  background: linear-gradient(270deg, #003594 0%, #CF1940 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+

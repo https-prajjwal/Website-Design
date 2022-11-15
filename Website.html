@@ -34,10 +34,10 @@
                 </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#testimonials">Help</a>
+                  <a class="nav-link" href="#contact">Help</a>
                 </li>
                 <li class="nav-item d-none d-lg-inline">
-                  <a href=""><button>Contact Us</button></a>
+                  <a href="#contact"><button>Contact Us</button></a>
                 </li>
               </ul>
             </div>
@@ -84,26 +84,26 @@
 
 
               </p>
-          </div>
-
+          </div>  
         </section>
-        <section id="services" class=" py-5">
+
+        <!--services-->
+        <section id="services" class="overflow-hidden py-5">
           <div class="container-xxxl" >
               <div class="text-center">
                   <h1 class="display-5"><b>OUR SERVICES</b></h1>
               </div>
         
-              <div class="row my-4 align-items-center justify-content-center g-2" id="chips">
+              <div class="row my-4 align-items-center justify-content-center overflow-hidden g-2" id="chips">
         
                 <div class="col-8 col-lg-3">
-                  <div class="card border-0">
+                  <div class="card" id ="border">
                     <div class="card-header text-center">Rafting</div>
-                    <div class="ratio ratio-4x3">
-                      <video src="/video-45506708c966720477ab61b5e7aeee3a-V.mp4" controls></video>
-                    </div>
+                      <img class="card-img-top img-fluid" src="./adventure.png" >
+
                    <div class="card-body justify-content-center align-items-center text-center">
-                  <p class="card-text">This is a short demonstration of my riding skills.</p>
-                  <div class="btn btn-outline-secondary">Hire Me for Family Trips</div>
+                  <a href="#contact"><div class="btn" id="btn1">Book Now</div>
+                  </a>
                 </div>
               </div>
               </div>
@@ -111,25 +111,23 @@
                 <div class="col-10 col-lg-4">
                   <div class="card" id="border">
                     <div class="card-header text-center ">Mountain Climbing</div>
-                    <div class="ratio ratio-16x9">
-                      <video src="/lv_0_20210707131249.mp4" controls></video>
-                    </div>
+                    <img class="card-img-top img-fluid" src="./mt-everest-tourism-171676392.jpg" >
                    <div class="card-body justify-content-center align-items-center text-center">
-                  <p class="card-text">This is a mixtape of everything I am capable of; a show of my multiple traits that can immobilize any girl I lay my eyes on. I can ride any type of vehicle and sing and dance on any event  but I need bottles of beer to charge myself. Moreover, I tend to say that "If only I had a girlfriend, I would've gotten married after my +2 boards" when I get drunk.</p>
-                  <div class="btn btn-secondary">Call Me Now</div>
+                    <a href="#contact">
+                      <div class="btn" id="btn1">Book Now
+                      </div>
+                    </a>
                 </div>
               </div>
               </div>
         
                 <div class="col-8 col-lg-3">
-                  <div class="card border-0">
+                  <div class="card " id ="border">
                     <div class="card-header text-center ">Sightseeing</div>
-                    <div class="ratio ratio-4x3">
-                      <video src="/video-f02851682ef823ff5f723dbe4d1a1a43-V.mp4" controls></video>
-                    </div>
+                      <img class="card-img-top img-fluid" src="./nepal-pokhara-lake.jpg" >
                    <div class="card-body justify-content-center align-items-center text-center">
-                  <p class="card-text">I claim myself as an excellent world class singer and dancer. </p>
-                  <div class="btn btn-outline-secondary">Hire Me for Events</div>
+                    <a href="#contact"><div class="btn " id="btn1">Book Now</div>
+                    </a>
                 </div>
               </div>
               </div>
@@ -139,8 +137,54 @@
         
         </section>
 
+
+        <!--contact-->
+        <section id="contact" class=" py-5">
+          <div class="container">
+            <div class="text-center">
+              <h1 class="display-5" id="topic" ><b> CONTACT US </b></h1>
+            </div>
+            <div class="row justify-content-center my-5" >
+              <div class="col-lg-8">
+                <form>
+                  <label for="name" class="form-label">Name:</label>
+                  <div class="mb-4 input-group">
+                    <span class="input-group-text">
+                      <i class="bi bi-person-fill"></i>
+                    </span>
+                  <input type="text" class="form-control" id="name" placeholder="e.g. Utsav Dangol">
+                  <span class="input-group-text">
+                    <span class="tt" data-bs-placement="bottom" title="Enter Your Name">
+                    <i class="bi bi-question-circle"></i>
+                    </span>
+                    </span>
+                </div>
+                <label for="email" class="form-label">Email Address:</label>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-fill"></i>
+                  </span>
+                  <input type="email" class="form-control" id="email" placeholder="e.g. utsav@example.com">
+                  <span class="input-group-text">
+                    <span class="tt" data-bs-placement="bottom" title="Enter Your Email Address">
+                    <i class="bi bi-question-circle"></i>
+                    </span>
+                  </span>
+                </div>
+                  <label for="query" class="form-label">Your Query:</label>
+                  <textarea id="query" class="form-control" style="height: 100px;" placeholder="Type something...."></textarea>
+                  <div class=" mt-4 text-center">
+                  <button type="submit" class="btn " id="btn2">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <!--footer-->
-        <section>
+        <section >
           <div class="footer">
             <p>Copyright &#169; Prajjwal Bhandari. All rights reserved.</p>
           </div>
